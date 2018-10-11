@@ -1,6 +1,6 @@
 ## Linode Terraform examples
 
-The demos demonstrate the simplest and more complex use cases of the Linode Terraform Provider.
+These demos demonstrate the simplest and more complex use cases of the Linode Terraform Provider.
 
 ### Requirements
 
@@ -21,7 +21,7 @@ Terraform will only consider the files in the root of this repo, so testing thes
 To use any of the demos:
 
 ```bash
-read -sp "Linode Token: " LINODE_TOKEN
+read -sp "Linode Token: " LINODE_TOKEN; echo
 export TF_VAR_linode_token=$LINODE_TOKEN
 terraform init -get-plugins
 ```
